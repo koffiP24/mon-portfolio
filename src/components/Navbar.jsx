@@ -53,7 +53,7 @@ const Navbar = () => {
           >
             <h1 className="text-2xl font-bold cursor-pointer">
               <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent group-hover:opacity-80 transition-opacity">
-                Koffi Philippe
+                Koffi Philippe Assidjo
               </span>
             </h1>
             <p className="text-xs text-gray-500 mt-0.5 tracking-wider">
