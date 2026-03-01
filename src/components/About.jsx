@@ -77,7 +77,7 @@ const About = () => {
               <div className="absolute -inset-4 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 rounded-2xl blur-lg opacity-30"></div>
               <div className="relative">
                 <img
-                  src="/src/images/Osirus jack.jpg"
+                  src="/src/images/3.jpeg"
                   alt="Koffi Philippe Assidjo"
                   className="w-full h-auto rounded-2xl object-cover"
                   style={{ boxShadow: "0 10px 40px -10px rgba(0,0,0,0.3)" }}
