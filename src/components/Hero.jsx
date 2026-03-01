@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { FaGithub, FaLinkedin, FaEnvelope, FaArrowDown } from "react-icons/fa";
+import { FaGithub, FaFilePdf, FaEnvelope, FaArrowDown } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -85,13 +85,13 @@ const Hero = () => {
               <FaGithub size={24} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="/CV_3.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-slate-800 text-gray-400 hover:text-white hover:bg-slate-700 transition-all duration-300"
-              aria-label="LinkedIn"
+              aria-label="Mon CV"
             >
-              <FaLinkedin size={24} />
+              <FaFilePdf size={24} />
             </a>
             <a
               href="mailto:assidjo1@gmail.com"

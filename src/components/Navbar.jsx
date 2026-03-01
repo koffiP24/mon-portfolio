@@ -4,7 +4,7 @@ import {
   FaBars,
   FaTimes,
   FaGithub,
-  FaLinkedin,
+  FaFilePdf,
   FaEnvelope,
 } from "react-icons/fa";
 
@@ -91,13 +91,13 @@ const Navbar = () => {
               <FaGithub size={20} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="/CV_3.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-gray-400 hover:text-white hover:bg-slate-800 rounded-lg transition-all duration-300"
-              aria-label="LinkedIn"
+              aria-label="Mon CV"
             >
-              <FaLinkedin size={20} />
+              <FaFilePdf size={20} />
             </a>
             <a
               href="mailto:assidjo1@gmail.com"
@@ -168,13 +168,13 @@ const Navbar = () => {
                 <FaGithub size={24} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="/CV_3.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-slate-800 text-gray-400 hover:text-white rounded-lg transition-all duration-300"
-                aria-label="LinkedIn"
+                aria-label="Mon CV"
               >
-                <FaLinkedin size={24} />
+                <FaFilePdf size={24} />
               </a>
               <a
                 href="mailto:assidjo1@gmail.com"

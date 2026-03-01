@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {
   FaGithub,
-  FaLinkedin,
+  FaFilePdf,
   FaEnvelope,
   FaMapMarkerAlt,
   FaPaperPlane,
@@ -57,12 +57,12 @@ const Contact = () => {
       bg: "bg-slate-700",
     },
     {
-      icon: FaLinkedin,
-      label: "LinkedIn",
-      value: "linkedin.com/in",
-      href: "https://linkedin.com",
-      color: "text-blue-500",
-      bg: "bg-blue-500/10",
+      icon: FaFilePdf,
+      label: "Mon CV",
+      value: "Télécharger",
+      href: "/CV_3.pdf",
+      color: "text-red-500",
+      bg: "bg-red-500/10",
     },
     {
       icon: FaMapMarkerAlt,

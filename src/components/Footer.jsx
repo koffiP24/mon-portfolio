@@ -1,5 +1,11 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaEnvelope, FaHeart } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaHeart,
+  FaFilePdf,
+} from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const Footer = () => {
@@ -12,9 +18,9 @@ const Footer = () => {
       label: "GitHub",
     },
     {
-      icon: FaLinkedin,
-      href: "https://linkedin.com",
-      label: "LinkedIn",
+      icon: FaFilePdf,
+      href: "/CV_3.pdf",
+      label: "Mon CV",
     },
     {
       icon: FaEnvelope,
