@@ -7,7 +7,7 @@ import {
   FaNodeJs,
   FaGit,
 } from "react-icons/fa";
-import { SiTailwindcss, SiMongodb, SiFigma, SiFirebase } from "react-icons/si";
+import { SiTailwindcss, SiMongodb, SiFigma, SiPython, SiDjango, SiPhp, SiMysql, SiSqlite, SiLaravel, SiFlutter, SiVuedotjs } from "react-icons/si";
 
 const Skills = () => {
   const skills = [
@@ -17,7 +17,7 @@ const Skills = () => {
       icon: FaHtml5,
       color: "text-orange-500",
       bg: "bg-orange-500/10",
-      level: 95,
+      level: 85,
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ const Skills = () => {
       icon: FaCss3Alt,
       color: "text-blue-500",
       bg: "bg-blue-500/10",
-      level: 90,
+      level: 80,
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ const Skills = () => {
       icon: FaJs,
       color: "text-yellow-500",
       bg: "bg-yellow-500/10",
-      level: 85,
+      level: 70,
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ const Skills = () => {
       icon: FaReact,
       color: "text-cyan-400",
       bg: "bg-cyan-400/10",
-      level: 90,
+      level: 70,
     },
     {
       id: 5,
@@ -49,7 +49,7 @@ const Skills = () => {
       icon: FaNodeJs,
       color: "text-green-600",
       bg: "bg-green-600/10",
-      level: 80,
+      level: 75,
     },
     {
       id: 6,
@@ -57,7 +57,7 @@ const Skills = () => {
       icon: SiTailwindcss,
       color: "text-cyan-500",
       bg: "bg-cyan-500/10",
-      level: 92,
+      level: 50,
     },
     {
       id: 7,
@@ -65,7 +65,7 @@ const Skills = () => {
       icon: SiMongodb,
       color: "text-green-500",
       bg: "bg-green-500/10",
-      level: 75,
+      level: 60,
     },
     {
       id: 8,
@@ -81,16 +81,74 @@ const Skills = () => {
       icon: SiFigma,
       color: "text-purple-500",
       bg: "bg-purple-500/10",
-      level: 70,
+      level: 45,
     },
     {
       id: 10,
-      name: "Firebase",
-      icon: SiFirebase,
-      color: "text-yellow-500",
-      bg: "bg-yellow-500/10",
-      level: 72,
+      name: "Python",
+      icon: SiPython,
+      color: "text-blue-500",
+      bg: "bg-blue-500/10",
+      level: 70,
     },
+    {
+      id: 11,
+      name: "Django",
+      icon: SiDjango,
+      color: "text-green-600",
+      bg: "bg-green-600/10",
+      level: 65,
+    },
+    {
+      id: 12,
+      name: "PHP",
+      icon: SiPhp,
+      color: "text-indigo-500",
+      bg: "bg-indigo-500/10",
+      level: 45,
+    },
+    {
+      id: 13,
+      name: "MySQL",
+      icon: SiMysql,
+      color: "text-orange-500",
+      bg: "bg-orange-500/10",
+      level: 60,
+    },
+    {
+      id: 14,
+      name: "Sqlite",
+      icon: SiSqlite,
+      color: "text-blue-400",
+      bg: "bg-blue-400/10",
+      level: 55,
+    },
+    {
+      id: 15,
+      name: "Laravel",
+      icon: SiLaravel,
+      color: "text-red-500",
+      bg: "bg-red-500/10",
+      level: 50,
+    },
+    {
+      id: 16,
+      name: "Flutter",
+      icon: SiFlutter,
+      color: "text-cyan-400",
+      bg: "bg-cyan-400/10",
+      level: 40,
+    },
+    {
+      id: 17,
+      name: "VueJs",
+      icon: SiVuedotjs,
+      color: "text-green-500",
+      bg: "bg-green-500/10",
+      level: 45,
+    }
+
+
   ];
 
   return (
@@ -167,7 +225,7 @@ const Skills = () => {
           <p className="text-gray-400">
             Je suis également ouvert à l'apprentissage de nouvelles
             technologies.
-            <span className="text-cyan-400 ml-2">always learning 🚀</span>
+            <span className="text-cyan-400 ml-2">toujours en train d'apprendre 🚀</span>
           </p>
         </div>
       </div>
