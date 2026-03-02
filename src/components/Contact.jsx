@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import {
   FaGithub,
   FaFilePdf,
@@ -16,6 +17,7 @@ const Contact = () => {
   });
   const [submitted, setSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState(false);
 
   const handleChange = (e) => {
     setFormData({
@@ -27,15 +29,32 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setError(false);
 
-    // Simulation d'envoi
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    try {
+      // Remplacez ces valeurs par vos identifiants EmailJS
+      // Obtenez-les sur https://www.emailjs.com/
+      await emailjs.send(
+        "Gmail", // Remplacez par votre Service ID
+        "YOUR_TEMPLATE_ID", // Remplacez par votre Template ID
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+          to_email: "assidjo1@gmail.com",
+        },
+        "YOUR_PUBLIC_KEY", // Remplacez par votre Public Key
+      );
 
-    console.log("Formulaire soumis", formData);
-    setSubmitted(true);
-    setFormData({ name: "", email: "", subject: "", message: "" });
+      setSubmitted(true);
+      setFormData({ name: "", email: "", subject: "", message: "" });
+    } catch (err) {
+      console.error("Erreur lors de l'envoi:", err);
+      setError(true);
+    }
+
     setIsSubmitting(false);
-
     setTimeout(() => setSubmitted(false), 5000);
   };
 
@@ -161,6 +180,15 @@ const Contact = () => {
                 </div>
               )}
 
+              {error && (
+                <div className="mb-6 p-4 bg-red-500/10 border border-red-500/20 rounded-xl text-red-400 flex items-center gap-3">
+                  <span>
+                    Une erreur s'est produite. Veuillez réessayer ou m'envoyer
+                    un email directement.
+                  </span>
+                </div>
+              )}
+
               <div className="grid md:grid-cols-2 gap-6 mb-6">
                 <div>
                   <label
@@ -176,7 +204,7 @@ const Contact = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    placeholder="John Doe"
+                    placeholder="Philippe Assidjo"
                     className="w-full px-4 py-3 rounded-xl bg-slate-700 border border-slate-600 text-white placeholder-gray-500 focus:outline-none focus:border-cyan-500 focus:ring-2 focus:ring-cyan-500/20 transition-all duration-300"
                   />
                 </div>
@@ -194,7 +222,7 @@ const Contact = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    placeholder="john@example.com"
+                    placeholder="assidjo1@gmail.com"
                     className="w-full px-4 py-3 rounded-xl bg-slate-700 border border-slate-600 text-white placeholder-gray-500 focus:outline-none focus:border-cyan-500 focus:ring-2 focus:ring-cyan-500/20 transition-all duration-300"
                   />
                 </div>

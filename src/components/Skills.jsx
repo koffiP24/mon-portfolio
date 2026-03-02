@@ -7,7 +7,19 @@ import {
   FaNodeJs,
   FaGit,
 } from "react-icons/fa";
-import { SiTailwindcss, SiMongodb, SiFigma, SiPython, SiDjango, SiPhp, SiMysql, SiSqlite, SiLaravel, SiFlutter, SiVuedotjs } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiMongodb,
+  SiFigma,
+  SiPython,
+  SiDjango,
+  SiPhp,
+  SiMysql,
+  SiSqlite,
+  SiLaravel,
+  SiFlutter,
+  SiVuedotjs,
+} from "react-icons/si";
 
 const Skills = () => {
   const skills = [
@@ -17,6 +29,7 @@ const Skills = () => {
       icon: FaHtml5,
       color: "text-orange-500",
       bg: "bg-orange-500/10",
+      barColor: "bg-orange-500",
       level: 85,
     },
     {
@@ -25,6 +38,7 @@ const Skills = () => {
       icon: FaCss3Alt,
       color: "text-blue-500",
       bg: "bg-blue-500/10",
+      barColor: "bg-blue-500",
       level: 80,
     },
     {
@@ -33,6 +47,7 @@ const Skills = () => {
       icon: FaJs,
       color: "text-yellow-500",
       bg: "bg-yellow-500/10",
+      barColor: "bg-yellow-500",
       level: 70,
     },
     {
@@ -41,6 +56,7 @@ const Skills = () => {
       icon: FaReact,
       color: "text-cyan-400",
       bg: "bg-cyan-400/10",
+      barColor: "bg-cyan-400",
       level: 70,
     },
     {
@@ -49,6 +65,7 @@ const Skills = () => {
       icon: FaNodeJs,
       color: "text-green-600",
       bg: "bg-green-600/10",
+      barColor: "bg-green-600",
       level: 75,
     },
     {
@@ -57,6 +74,7 @@ const Skills = () => {
       icon: SiTailwindcss,
       color: "text-cyan-500",
       bg: "bg-cyan-500/10",
+      barColor: "bg-cyan-500",
       level: 50,
     },
     {
@@ -65,6 +83,7 @@ const Skills = () => {
       icon: SiMongodb,
       color: "text-green-500",
       bg: "bg-green-500/10",
+      barColor: "bg-green-500",
       level: 60,
     },
     {
@@ -73,7 +92,8 @@ const Skills = () => {
       icon: FaGit,
       color: "text-orange-600",
       bg: "bg-orange-600/10",
-      level: 88,
+      barColor: "bg-orange-600",
+      level: 70,
     },
     {
       id: 9,
@@ -81,6 +101,7 @@ const Skills = () => {
       icon: SiFigma,
       color: "text-purple-500",
       bg: "bg-purple-500/10",
+      barColor: "bg-purple-500",
       level: 45,
     },
     {
@@ -89,6 +110,7 @@ const Skills = () => {
       icon: SiPython,
       color: "text-blue-500",
       bg: "bg-blue-500/10",
+      barColor: "bg-blue-500",
       level: 70,
     },
     {
@@ -97,6 +119,7 @@ const Skills = () => {
       icon: SiDjango,
       color: "text-green-600",
       bg: "bg-green-600/10",
+      barColor: "bg-green-600",
       level: 65,
     },
     {
@@ -105,6 +128,7 @@ const Skills = () => {
       icon: SiPhp,
       color: "text-indigo-500",
       bg: "bg-indigo-500/10",
+      barColor: "bg-indigo-500",
       level: 45,
     },
     {
@@ -113,7 +137,8 @@ const Skills = () => {
       icon: SiMysql,
       color: "text-orange-500",
       bg: "bg-orange-500/10",
-      level: 60,
+      barColor: "bg-orange-500",
+      level: 70,
     },
     {
       id: 14,
@@ -121,7 +146,8 @@ const Skills = () => {
       icon: SiSqlite,
       color: "text-blue-400",
       bg: "bg-blue-400/10",
-      level: 55,
+      barColor: "bg-blue-400",
+      level: 70,
     },
     {
       id: 15,
@@ -129,6 +155,7 @@ const Skills = () => {
       icon: SiLaravel,
       color: "text-red-500",
       bg: "bg-red-500/10",
+      barColor: "bg-red-500",
       level: 50,
     },
     {
@@ -137,7 +164,8 @@ const Skills = () => {
       icon: SiFlutter,
       color: "text-cyan-400",
       bg: "bg-cyan-400/10",
-      level: 40,
+      barColor: "bg-cyan-400",
+      level: 50,
     },
     {
       id: 17,
@@ -145,10 +173,9 @@ const Skills = () => {
       icon: SiVuedotjs,
       color: "text-green-500",
       bg: "bg-green-500/10",
-      level: 45,
-    }
-
-
+      barColor: "bg-green-500",
+      level: 60,
+    },
   ];
 
   return (
@@ -204,9 +231,9 @@ const Skills = () => {
                 </h3>
 
                 {/* Progress bar */}
-                <div className="w-full bg-slate-700 rounded-full h-1.5 mb-2">
+                <div className="w-full bg-slate-700 rounded-full h-1.5 mb-2 overflow-hidden">
                   <div
-                    className={`h-full rounded-full ${skill.bg.replace("/10", "")}`}
+                    className={`h-full rounded-full ${skill.barColor}`}
                     style={{ width: `${skill.level}%` }}
                   />
                 </div>
@@ -225,7 +252,9 @@ const Skills = () => {
           <p className="text-gray-400">
             Je suis également ouvert à l'apprentissage de nouvelles
             technologies.
-            <span className="text-cyan-400 ml-2">toujours en train d'apprendre 🚀</span>
+            <span className="text-cyan-400 ml-2">
+              toujours en train d'apprendre 🚀
+            </span>
           </p>
         </div>
       </div>
