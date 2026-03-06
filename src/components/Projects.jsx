@@ -10,7 +10,7 @@ const projectsData = [
       "Application web complète de gestion de stock avec PHP/MySQL. Permet d'ajouter, modifier, supprimer des produits et de suivre les quantités en temps réel.",
     image:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop",
-    github: "https://github.com",
+    github: "https://github.com/koffiP24/Gestion-de-stock.git",
     demo: "#",
     technologies: ["PHP", "MySQL", "HTML/CSS", "JavaScript"],
     category: "Full Stack",
@@ -180,7 +180,7 @@ const Projects = () => {
         {/* View More */}
         <div className="text-center mt-12">
           <a
-            href="https://github.com"
+            href="https://github.com/koffiP24"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold border-2 border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-slate-900 transition-all duration-300"

@@ -35,8 +35,8 @@ const Contact = () => {
       // Remplacez ces valeurs par vos identifiants EmailJS
       // Obtenez-les sur https://www.emailjs.com/
       await emailjs.send(
-        "Gmail", // Remplacez par votre Service ID
-        "YOUR_TEMPLATE_ID", // Remplacez par votre Template ID
+        "service_4leyg3n",
+        "template_urd434a",
         {
           from_name: formData.name,
           from_email: formData.email,
@@ -44,7 +44,7 @@ const Contact = () => {
           message: formData.message,
           to_email: "assidjo1@gmail.com",
         },
-        "YOUR_PUBLIC_KEY", // Remplacez par votre Public Key
+        "93J22OXabNtsi815m",
       );
 
       setSubmitted(true);
