@@ -22,21 +22,21 @@ const projectsData = [
       "Application de gestion d'inscriptions, de paiements et de progression pédagogique avec gestion des rôles (Super Admin, Gestionnaire, Comptable).",
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop",
-    github: "https://github.com",
+    github: "https://github.com/koffiP24/gestion_formation.git",
     demo: "#",
-    technologies: ["PHP", "MySQL", "Bootstrap", "JavaScript"],
+    technologies: ["Laravel","PHP", "MySQL"],
     category: "Full Stack",
   },
   {
     id: 3,
-    title: "Portfolio React",
+    title: "Portfolio ",
     description:
-      "Ce portfolio que vous visitez actuellement ! Développé avec React, Tailwind CSS et Framer Motion pour une expérience utilisateur moderne.",
+      "Ce portfolio que vous visitez actuellement ! Développé avec React et Tailwind CSS  pour une expérience utilisateur moderne.",
     image:
       "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=500&fit=crop",
-    github: "https://github.com",
+    github: "https://github.com/koffiP24/mon-portfolio.git",
     demo: "#",
-    technologies: ["React", "Tailwind", "Framer Motion"],
+    technologies: ["React", "Tailwind"],
     category: "Frontend",
   },
   {
