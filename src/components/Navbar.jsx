@@ -82,7 +82,7 @@ const Navbar = () => {
           {/* Social Icons (Desktop) */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="https://github.com"
+              href="https://github.com/koffiP24"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-gray-400 hover:text-white hover:bg-slate-800 rounded-lg transition-all duration-300"
@@ -159,7 +159,7 @@ const Navbar = () => {
             <p className="text-gray-500 text-sm mb-4">Me suivre sur :</p>
             <div className="flex gap-4">
               <a
-                href="https://github.com"
+                href="https://github.com/koffiP24"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-slate-800 text-gray-400 hover:text-white rounded-lg transition-all duration-300"

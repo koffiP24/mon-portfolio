@@ -71,7 +71,7 @@ const Contact = () => {
       icon: FaGithub,
       label: "GitHub",
       value: "github.com",
-      href: "https://github.com",
+      href: "https://github.com/koffiP24",
       color: "text-white",
       bg: "bg-slate-700",
     },

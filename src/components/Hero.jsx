@@ -75,7 +75,7 @@ const Hero = () => {
             style={{ animationDelay: "400ms" }}
           >
             <a
-              href="https://github.com"
+              href="https://github.com/koffiP24"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-slate-800 text-gray-400 hover:text-white hover:bg-slate-700 transition-all duration-300"

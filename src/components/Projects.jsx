@@ -11,7 +11,6 @@ const projectsData = [
     image:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop",
     github: "https://github.com/koffiP24/Gestion-de-stock.git",
-    demo: "#",
     technologies: ["PHP", "MySQL", "HTML/CSS", "JavaScript"],
     category: "Full Stack",
   },
@@ -23,7 +22,6 @@ const projectsData = [
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop",
     github: "https://github.com/koffiP24/gestion_formation.git",
-    demo: "#",
     technologies: ["Laravel","PHP", "MySQL"],
     category: "Full Stack",
   },
@@ -35,7 +33,6 @@ const projectsData = [
     image:
       "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=500&fit=crop",
     github: "https://github.com/koffiP24/mon-portfolio.git",
-    demo: "#",
     technologies: ["React", "Tailwind"],
     category: "Frontend",
   },
@@ -47,7 +44,6 @@ const projectsData = [
     image:
       "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=500&fit=crop",
     github: "https://github.com/koffiP24/E-Commerce-Platform.git",
-    demo: "#",
     technologies: ["React", "Node.js", "MongoDB", "Stripe"],
     category: "Full Stack",
   },
@@ -59,7 +55,6 @@ const projectsData = [
     image:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop",
     github: "https://github.com/koffiP24/Dashboard-Analytics.git",
-    demo: "#",
     technologies: ["React", "Chart.js", "Firebase"],
     category: "Frontend",
   },
@@ -122,16 +117,6 @@ const Projects = () => {
                     aria-label="Voir sur GitHub"
                   >
                     <FaGithub size={20} />
-                  </a>
-                  <a
-                    href={project.demo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-3 bg-cyan-500 rounded-full text-slate-900 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0"
-                    style={{ transitionDelay: "50ms" }}
-                    aria-label="Voir la démo"
-                  >
-                    <FaExternalLinkAlt size={20} />
                   </a>
                 </div>
               </div>
