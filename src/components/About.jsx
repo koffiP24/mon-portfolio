@@ -5,19 +5,19 @@ const About = () => {
   const stats = [
     {
       label: "Projets réalisés",
-      value: "5+",
+      value: "3+",
       icon: FaCode,
       color: "text-cyan-400",
     },
     {
       label: "Années d'expérience",
-      value: "1",
+      value: "3",
       icon: FaAward,
       color: "text-blue-500",
     },
     {
       label: "Technologies maîtrisées",
-      value: "8+",
+      value: "9+",
       icon: FaLightbulb,
       color: "text-purple-500",
     },
@@ -28,7 +28,7 @@ const About = () => {
       icon: FaUser,
       title: "Passionné",
       description:
-        "Je suis passionné par le développement web et toujours eager d'apprendre de nouvelles technologies.",
+        "Je suis passionné par le développement web et toujours entrain d'apprendre de nouvelles technologies.",
     },
     {
       icon: FaCode,
@@ -92,7 +92,7 @@ const About = () => {
                 style={{ boxShadow: "0 10px 40px -10px rgba(0,0,0,0.3)" }}
               >
                 <div className="text-3xl font-bold bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent">
-                  1+
+                  3+
                 </div>
                 <div className="text-gray-400 text-sm">Année d'exp.</div>
               </div>
@@ -113,7 +113,7 @@ const About = () => {
                 Côte d'Ivoire. Après avoir maîtrisé les bases du HTML, CSS et
                 JavaScript, je me suis spécialisé dans l'écosystème{" "}
                 <span className="text-cyan-400">React</span> et{" "}
-                <span className="text-purple-400">Node.js</span>
+                <span className="text-purple-400">Node.js </span>
                 pour créer des solutions numériques performantes et modernes.
               </p>
               <p className="text-gray-400 text-lg leading-relaxed mt-4">

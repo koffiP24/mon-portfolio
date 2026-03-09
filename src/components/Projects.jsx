@@ -46,7 +46,7 @@ const projectsData = [
       "Plateforme e-commerce complète avec gestion des produits, panier, paiement et espace administrateur.",
     image:
       "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=500&fit=crop",
-    github: "https://github.com",
+    github: "https://github.com/koffiP24/E-Commerce-Platform.git",
     demo: "#",
     technologies: ["React", "Node.js", "MongoDB", "Stripe"],
     category: "Full Stack",
@@ -58,22 +58,10 @@ const projectsData = [
       "Tableau de bord analytique avec visualisation de données, rapports et statistiques en temps réel.",
     image:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop",
-    github: "https://github.com",
+    github: "https://github.com/koffiP24/Dashboard-Analytics.git",
     demo: "#",
     technologies: ["React", "Chart.js", "Firebase"],
     category: "Frontend",
-  },
-  {
-    id: 6,
-    title: "API RESTful",
-    description:
-      "API RESTful sécurisée avec authentification JWT, gestion des utilisateurs et documentation Swagger.",
-    image:
-      "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=500&fit=crop",
-    github: "https://github.com",
-    demo: "#",
-    technologies: ["Node.js", "Express", "MongoDB", "JWT"],
-    category: "Backend",
   },
 ];
 
