@@ -92,6 +92,22 @@ const Skills = () => {
     Tools: FaGit,
   };
 
+  const colorToBg = {
+    "text-orange-500": "bg-orange-500",
+    "text-blue-500": "bg-blue-500",
+    "text-yellow-500": "bg-yellow-500",
+    "text-cyan-400": "bg-cyan-400",
+    "text-cyan-500": "bg-cyan-500",
+    "text-green-500": "bg-green-500",
+    "text-green-600": "bg-green-600",
+    "text-indigo-500": "bg-indigo-500",
+    "text-red-500": "bg-red-500",
+    "text-blue-400": "bg-blue-400",
+    "text-orange-600": "bg-orange-600",
+    "text-purple-500": "bg-purple-500",
+    "text-gray-300": "bg-gray-300",
+  };
+
   const categoryColors = {
     Frontend: "from-cyan-500 to-blue-500",
     Backend: "from-green-500 to-emerald-500",
@@ -185,7 +201,7 @@ const Skills = () => {
                           whileInView={{ width: `${skill.level}%` }}
                           viewport={{ once: true }}
                           transition={{ duration: 1, delay: index * 0.1 }}
-                          className={`${skill.color.replace("text-", "bg-")} h-full rounded-full`}
+                          className={`${colorToBg[skill.color] || "bg-cyan-500"} h-full rounded-full`}
                         />
                       </div>
                     </div>
