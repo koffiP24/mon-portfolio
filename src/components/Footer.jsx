@@ -19,7 +19,11 @@ const Footer = () => {
     },
     {
       icon: FaFilePdf,
+<<<<<<< HEAD
       href: "/cv_Philippe_Assidjo.pdf",
+=======
+      href: "/CV_3.pdf",
+>>>>>>> origin/main
       label: "Mon CV",
     },
     {
