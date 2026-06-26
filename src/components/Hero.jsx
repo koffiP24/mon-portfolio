@@ -85,11 +85,7 @@ const Hero = () => {
               <FaGithub size={24} />
             </a>
             <a
-<<<<<<< HEAD
               href="/cv_Philippe_Assidjo.pdf"
-=======
-              href="/CV_3.pdf"
->>>>>>> origin/main
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-slate-800 text-gray-400 hover:text-white hover:bg-slate-700 transition-all duration-300"

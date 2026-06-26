@@ -75,15 +75,11 @@ const Contact = () => {
       color: "text-white",
       bg: "bg-slate-700",
     },
-    {
+{
       icon: FaFilePdf,
       label: "Mon CV",
       value: "Télécharger",
-<<<<<<< HEAD
       href: "/cv_Philippe_Assidjo.pdf",
-=======
-      href: "/CV_3.pdf",
->>>>>>> origin/main
       color: "text-red-500",
       bg: "bg-red-500/10",
     },

@@ -79,7 +79,7 @@ const Navbar = () => {
             ))}
           </ul>
 
-          {/* Social Icons (Desktop) */}
+{/* Social Icons (Desktop) */}
           <div className="hidden md:flex items-center gap-3">
             <a
               href="https://github.com/koffiP24"
@@ -91,11 +91,7 @@ const Navbar = () => {
               <FaGithub size={20} />
             </a>
             <a
-<<<<<<< HEAD
               href="/cv_Philippe_Assidjo.pdf"
-=======
-              href="/CV_3.pdf"
->>>>>>> origin/main
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-gray-400 hover:text-white hover:bg-slate-800 rounded-lg transition-all duration-300"
@@ -172,11 +168,7 @@ const Navbar = () => {
                 <FaGithub size={24} />
               </a>
               <a
-<<<<<<< HEAD
                 href="/cv_Philippe_Assidjo.pdf"
-=======
-                href="/CV_3.pdf"
->>>>>>> origin/main
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-slate-800 text-gray-400 hover:text-white rounded-lg transition-all duration-300"

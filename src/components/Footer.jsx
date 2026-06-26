@@ -11,7 +11,7 @@ import { Link } from "react-scroll";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
-  const socialLinks = [
+const socialLinks = [
     {
       icon: FaGithub,
       href: "https://github.com/koffiP24",
@@ -19,11 +19,7 @@ const Footer = () => {
     },
     {
       icon: FaFilePdf,
-<<<<<<< HEAD
       href: "/cv_Philippe_Assidjo.pdf",
-=======
-      href: "/CV_3.pdf",
->>>>>>> origin/main
       label: "Mon CV",
     },
     {
